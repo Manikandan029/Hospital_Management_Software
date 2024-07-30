@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+}
+
+.container,
+.link2 {
+    width: 48%; /* Make both sections closer together */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.link2 {
+    background-color: #20b99b;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #20b99b;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.form-group button:hover {
+    background-color: black;
+    color: #f1f1f1;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.link2 a {
+    width: 100%; /* Match the width of the login button */
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #20b99b;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    align-self: center;
+    margin-top: auto;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.link2 a:hover {
+    background-color: #f1f1f1; /* Similar hover effect */
+}
+
+.link {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
